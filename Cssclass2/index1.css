@@ -1,0 +1,32 @@
+
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.container{
+    display: flex;
+    height: 400px;
+    width: 600px;
+    background-color: beige;
+    border: 2px solid black;
+   flex-direction:column;
+   justify-content: space-evenly;
+}
+
+.n1{
+  height: 50px;
+  width: 50px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  background-color: rgb(29, 197, 197);
+}
+
+  .we{
+    order: calc(2);
+  height: 50px;
+  width: 50px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  background-color: rgb(29, 197, 197);
+}
+
+  
